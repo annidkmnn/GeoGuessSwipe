@@ -54,11 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
 
                     if (swipeDir == ItemTouchHelper.LEFT && geoObjectViewHolder.mGeoImageInEurope || swipeDir == ItemTouchHelper.RIGHT && !geoObjectViewHolder.mGeoImageInEurope) {
-                        country = ", it's in " + GeoObject.PRE_DEFINED_GEO_OBJECT_NAMES.toString();
-                        Toast.makeText(MainActivity.this, "Great" + country, Toast.LENGTH_SHORT).show();
+               
+                        Toast.makeText(MainActivity.this, "Great", Toast.LENGTH_SHORT).show();
                     } else {
                         country = ", it's in " + GeoObject.PRE_DEFINED_GEO_OBJECT_NAMES.toString();
-                        Toast.makeText(MainActivity.this, "Wrong" + country, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Wrong", Toast.LENGTH_SHORT).show();
                     }
 
                 }
